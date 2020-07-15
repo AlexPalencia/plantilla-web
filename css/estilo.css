@@ -1,0 +1,57 @@
+.dropdown:hover>.dropdown-menu {
+		  display: block;
+		}
+
+		.dropdown>.dropdown-toggle:active {
+		  /*Without this, clicking will make it sticky*/
+		    pointer-events: none;
+		}
+
+		/*estilo del div para el backstrech*/
+		.miDiv{
+			width:400;
+			height:500px;
+		}
+		
+		/* bg del letrero*/
+		.box{
+			
+			background: white;
+			opacity: 85%;
+		}
+		/* .box:hover{
+			background: #ffc107;
+			opacity: 100%; 
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		} */
+		
+		/* estilo de los botones*/
+		.boton{
+			text-decoration:none;
+			font-weight: 600;
+			font-size: 20px;
+			color:#333333;
+			padding-top:15px;
+			padding-bottom:15px;
+			padding-left:40px;
+			padding-right:40px;
+			background-color:transparent;
+			border-color: #d8d8d8;
+			border-width: 3px;
+			border-style: solid;
+			border-radius:35px;
+		}
+		
+		/* sombra que simula un zoom*/
+		.card-shadow:hover {
+			width: 250px;
+ 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			
+		}
+		/*imagenes*/
+		.rounded{
+			width: 250px;
+			height: 250px;
+		}
+		
+		
